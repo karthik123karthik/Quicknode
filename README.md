@@ -7,7 +7,8 @@
 * send your FRD nft to your friends.
 
 ### Tech stack used:
-``` solidty,
+``` 
+    solidty,
     hardhat,
     Quicknode
 ```
