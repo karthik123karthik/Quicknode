@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# MyFriendNFT smart contract
+      
+      It is an ERC721 standard smart contract that can be used to mint an nft and transfer it to another account.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+### properties:
+* only owner of the contract can mint nfts.
+* send your FRD nft to your friends.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+### Tech stack used:
+``` solidty,
+    hardhat,
+    Quicknode
 ```

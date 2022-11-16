@@ -1,4 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomiclabs/hardhat-etherscan");
 require("dotenv").config({path:".env"});
 
 const QUICKNODE_URL = process.env.QUICK_NODE_URL;
@@ -12,5 +13,8 @@ module.exports = {
       url:QUICKNODE_URL,
       accounts:[PRIVATE_KEY]
     }
+  },
+  etherscan: {
+    apiKey: "CUHECMQBKWRBCUYZW71QVF65JZM2BH3HVC",
   }
 };
